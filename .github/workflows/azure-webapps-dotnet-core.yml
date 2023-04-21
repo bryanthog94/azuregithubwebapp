@@ -19,7 +19,7 @@
 
 name: AzureWebApp
 env:
-  AZURE_WEBAPP_NAME: azuregithubwebappbt28
+  AZURE_WEBAPP_NAME: azuregithubwebapp
   AZURE_WEBAPP_PACKAGE_PATH: '.'
   DOTNET_VERSION: '6'
 on:
