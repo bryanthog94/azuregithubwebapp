@@ -19,10 +19,9 @@
 
 name: AzureWebApp
 env:
-  AZURE_WEBAPP_NAME: azuregithubwebappbt28    # set this to the name of your Azure Web App 
-  AZURE_WEBAPP_PACKAGE_PATH: '.'              # set this to the path to your web app project, defaults to            
-the repository root
-  DOTNET_VERSION: '6'                         # set this to the .NET Core version to use
+  AZURE_WEBAPP_NAME: azuregithubwebappbt28
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
+  DOTNET_VERSION: '6'
 on:
 #  push:
  #   branches: [ "main" ]
